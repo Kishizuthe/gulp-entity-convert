@@ -21,6 +21,9 @@ module.exports = function (options) {
     var toConvert = String(file.contents)
 
     switch (options.type) {
+      case 'js':
+        converted = entityconvert.js(toConvert)
+        break
       case 'css':
         converted = entityconvert.css(toConvert)
         break
