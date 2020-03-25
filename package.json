@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "entity-convert": "git+ssh://git@github.com/Kishizuthe/entity-convert.git",
+    "entity-convert": "git+https://github.com/Kishizuthe/entity-convert.git",
     "map-stream": "~0.0.5"
   },
   "bugs": {
